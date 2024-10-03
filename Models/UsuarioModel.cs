@@ -9,14 +9,14 @@ namespace Api.Models
 
 		[Required]
 		[MaxLength(50)]
-		public string NombreUsuario { get; set; }
+		public string NombreUsuario { get; set; } = string.Empty;
 
 		[Required]
-		public string Password { get; set; }
+		public string Password { get; set; } = string.Empty;
 
 		[Required]
 		public int RolID { get; set; }
 
-		public Rol Rol { get; set; }
+		public Rol? Rol { get; set; }
 	}
 }

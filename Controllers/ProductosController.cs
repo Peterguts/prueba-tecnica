@@ -9,7 +9,6 @@ namespace Api.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]
-	[Authorize(Roles = "Administrador, Colaborador")]
 	public class ProductosController : ControllerBase
 	{
 		private readonly AppDBContext _context;
@@ -21,8 +20,6 @@ namespace Api.Controllers
 
 		// GET: api/productos
 		[HttpGet]
-		//[Authorize(Policy = "AdminOnly, UserPolicy")]
-		[Authorize(Roles = "Administrador, Colaborador")]
 		public async Task<ActionResult<IEnumerable<Producto>>> GetProductos()
 		{
 			List<ProductoDto> productos = await _context.Productos
@@ -44,7 +41,6 @@ namespace Api.Controllers
 
 		// GET: api/productos/{id}
 		[HttpGet("{id}")]
-		[Authorize(Policy = "AdminOnly, UserPolicy")]
 		public async Task<ActionResult<Producto>> GetProducto(int id)
 		{
 			var producto = await _context.Productos.FindAsync(id);
@@ -54,14 +50,29 @@ namespace Api.Controllers
 				return NotFound();
 			}
 
-			return producto;
+			var productoDto = new ProductoDto
+			{
+				ProductoID = producto.ProductoID,
+				Nombre = producto.Nombre,
+				Descripcion = producto.Descripcion,
+				Precio = producto.Precio,
+				SKU = producto.SKU,
+				Inventario = producto.Inventario,
+				ImagenURL = producto.ImagenURL
+			};
+
+			return Ok(productoDto);
 		}
 
 		// POST: api/productos
-		[HttpPost]
-		[Authorize(Policy = "AdminOnly, UserPolicy")]  // Solo Administrador y Colaborador pueden crear
+		[HttpPost, Authorize(Roles = "Administrador")]
 		public async Task<ActionResult<Producto>> PostProducto(Producto producto)
 		{
+			if (!ModelState.IsValid)
+			{
+				return BadRequest(ModelState);
+			}
+
 			_context.Productos.Add(producto);
 			await _context.SaveChangesAsync();
 
@@ -69,8 +80,7 @@ namespace Api.Controllers
 		}
 
 		// PUT: api/productos/{id}
-		[HttpPut("{id}")]
-		[Authorize(Policy = "AdminOnly, UserPolicy")]
+		[HttpPut("{id}"), Authorize(Roles = "Administrador, Colaborador")]
 		public async Task<IActionResult> PutProducto(int id, Producto producto)
 		{
 			if (id != producto.ProductoID)
@@ -100,8 +110,7 @@ namespace Api.Controllers
 		}
 
 		// DELETE: api/productos/{id}
-		[HttpDelete("{id}")]
-		[Authorize(Policy = "AdminOnly")]  // Solo Administrador puede eliminar
+		[HttpDelete("{id}"), Authorize(Roles = "Administrador")]
 		public async Task<IActionResult> DeleteProducto(int id)
 		{
 			var producto = await _context.Productos.FindAsync(id);

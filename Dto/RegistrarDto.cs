@@ -4,6 +4,7 @@ namespace Api.Dto
 {
 	public class RegistrarDto
 	{
+		[Required]
 		public string NombreUsuario { get; set; } = string.Empty;	
 
 		[Required]

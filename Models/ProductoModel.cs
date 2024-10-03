@@ -10,10 +10,10 @@ namespace Api.Models
 
 		[Required]
 		[MaxLength(100)]
-		public string Nombre { get; set; }
+		public string Nombre { get; set; } = string.Empty;
 
 		[MaxLength(500)]
-		public string Descripcion { get; set; }
+		public string Descripcion { get; set; } = string.Empty;
 
 		[Required]
 		[Column(TypeName = "decimal(10, 2)")]
@@ -21,11 +21,11 @@ namespace Api.Models
 
 		[Required]
 		[MaxLength(50)]
-		public string SKU { get; set; }
+		public string SKU { get; set; } = string.Empty;
 
 		[Required]
 		public int Inventario { get; set; }
 
-		public string ImagenURL { get; set; }
+		public string ImagenURL { get; set; } = string.Empty;
 	}
 }

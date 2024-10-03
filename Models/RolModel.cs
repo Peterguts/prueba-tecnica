@@ -9,6 +9,6 @@ namespace Api.Models
 
 		[Required]
 		[MaxLength(50)]
-		public string NombreRol { get; set; }
+		public string NombreRol { get; set; } = string.Empty;
 	}
 }

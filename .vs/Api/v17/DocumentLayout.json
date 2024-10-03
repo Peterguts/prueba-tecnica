@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|c:\\users\\pedro\\onedrive\\escritorio\\cemaco\\backend\\api\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|solutionrelative:jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|c:\\users\\pedro\\onedrive\\escritorio\\cemaco\\backend\\api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|c:\\users\\pedro\\onedrive\\escritorio\\cemaco\\backend\\api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|c:\\users\\pedro\\onedrive\\escritorio\\cemaco\\backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|c:\\users\\pedro\\onedrive\\escritorio\\cemaco\\backend\\api\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|c:\\users\\pedro\\onedrive\\escritorio\\cemaco\\backend\\api\\models\\productomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|solutionrelative:models\\productomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|c:\\users\\pedro\\onedrive\\escritorio\\cemaco\\backend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -35,8 +19,28 @@
       "RelativeMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|c:\\users\\pedro\\onedrive\\escritorio\\cemaco\\backend\\api\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|solutionrelative:jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|c:\\users\\pedro\\onedrive\\escritorio\\cemaco\\backend\\api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|c:\\users\\pedro\\onedrive\\escritorio\\cemaco\\backend\\api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|c:\\users\\pedro\\onedrive\\escritorio\\cemaco\\backend\\api\\services\\rolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|solutionrelative:services\\rolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|c:\\users\\pedro\\onedrive\\escritorio\\cemaco\\backend\\api\\services\\irolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|solutionrelative:services\\irolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|c:\\users\\pedro\\onedrive\\escritorio\\cemaco\\backend\\api\\dto\\registrardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2E3655E-40E0-488F-8168-5DFA225C45C9}|Api.csproj|solutionrelative:dto\\registrardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,118 +55,134 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JwtSettings.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\JwtSettings.cs",
-              "RelativeDocumentMoniker": "JwtSettings.cs",
-              "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\JwtSettings.cs",
-              "RelativeToolTip": "JwtSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T04:27:38.237Z",
+              "WhenOpened": "2024-10-02T16:31:20.793Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-03T00:32:16.641Z",
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Controllers\\ProductosController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAASwE8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T19:20:33.764Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "Services\\JwtService.cs",
               "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Services\\JwtService.cs",
               "RelativeToolTip": "Services\\JwtService.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAWwCkAAAADAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T22:32:14.473Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegistrarDto.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Dto\\RegistrarDto.cs",
+              "RelativeDocumentMoniker": "Dto\\RegistrarDto.cs",
+              "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Dto\\RegistrarDto.cs",
+              "RelativeToolTip": "Dto\\RegistrarDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T22:45:48.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRolService.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Services\\IRolService.cs",
+              "RelativeDocumentMoniker": "Services\\IRolService.cs",
+              "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Services\\IRolService.cs",
+              "RelativeToolTip": "Services\\IRolService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T22:23:29.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "RolService.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Services\\RolService.cs",
+              "RelativeDocumentMoniker": "Services\\RolService.cs",
+              "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Services\\RolService.cs",
+              "RelativeToolTip": "Services\\RolService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T22:19:35.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "JwtSettings.cs",
+              "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\JwtSettings.cs",
+              "RelativeToolTip": "JwtSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T06:57:35.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBUAAAADAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAhwDMAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T22:25:16.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB0AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T19:35:14.167Z",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-03T00:32:16.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProductoModel.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Models\\ProductoModel.cs",
-              "RelativeDocumentMoniker": "Models\\ProductoModel.cs",
-              "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Models\\ProductoModel.cs",
-              "RelativeToolTip": "Models\\ProductoModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAnAAAA",
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAADgv0AAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T19:24:35.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "Controllers\\ProductosController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAowBUAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T19:20:33.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T00:35:47.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Pedro\\OneDrive\\Escritorio\\Cemaco\\Backend\\Api\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAAAGQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T16:31:20.793Z",
+              "WhenOpened": "2024-10-02T19:35:14.167Z",
               "EditorCaption": ""
             }
           ]

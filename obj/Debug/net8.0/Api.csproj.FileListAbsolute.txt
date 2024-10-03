@@ -7,6 +7,7 @@ C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Api.dll
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Api.pdb
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Humanizer.dll
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -40,6 +41,9 @@ C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Microsoft
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Scrutor.dll
+C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -128,6 +132,7 @@ C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\obj\Debug\net8.0\Api.Assem
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\obj\Debug\net8.0\Api.csproj.CoreCompileInputs.cache
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\obj\Debug\net8.0\Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\obj\Debug\net8.0\Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\obj\Debug\net8.0\Api.sourcelink.json
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Pedro\OneDrive\Escritorio\Cemaco\Backend\Api\obj\Debug\net8.0\staticwebassets\msbuild.Api.Microsoft.AspNetCore.StaticWebAssets.props

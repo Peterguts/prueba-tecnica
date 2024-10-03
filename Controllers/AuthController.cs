@@ -1,6 +1,8 @@
 ﻿using Api.Data;
 using Api.Dto;
+using Api.Models;
 using Api.Services;
+using Azure.Core;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,32 +11,44 @@ namespace Api.Controllers
 	public class AuthController : Controller
 	{
 		private readonly AppDBContext _context;
-		private readonly JwtService _jwtService;
+		private readonly JwtService _tokenService;
 
-		public AuthController(AppDBContext context, JwtService jwtService)
+		public AuthController(AppDBContext context, JwtService tokenService)
 		{
 			_context = context;
-			_jwtService = jwtService;
+			_tokenService = tokenService;
 		}
 
 		[HttpPost("login")]
-		public async Task<ActionResult> Login(LoginDto loginDto)
+		public IActionResult Login([FromBody] LoginDto model)
 		{
-			// Verificar si el usuario existe en la base de datos
-			var usuario = await _context.Usuarios
-				.FirstOrDefaultAsync(u => u.NombreUsuario == loginDto.Usuario && u.Password == loginDto.Password);
-
-			if (usuario == null)
+			// Verificar si el modelo es válido
+			if (model == null || string.IsNullOrEmpty(model.Usuario) || string.IsNullOrEmpty(model.Password))
 			{
-				return Unauthorized(new { mensaje = "Nombre de usuario o contraseña incorrectos." });
+				return BadRequest("Datos incompletos");
 			}
 
-			// Generar el JWT usando el rol del usuario
-			var rol = usuario.RolID == 1 ? "Administrador" : "Colaborador";
-			var token = _jwtService.GenerateToken(usuario, rol);
+			Usuario? user = _context.Usuarios.FirstOrDefault(u => u.NombreUsuario == model.Usuario);
 
-			return Ok(new { token });
+			if (user == null)
+			{
+				return Unauthorized("Credenciales inválidas");
+			}
+
+			if (!BCrypt.Net.BCrypt.Verify(model.Password, user.Password))
+			{
+				return Unauthorized("Credenciales inválidas");
+			}
+
+			// Obtener el rol del usuario (con tipo explícito)
+			string? role = _context.Roles.FirstOrDefault(r => r.RolID == user.RolID)?.NombreRol;
+
+			if (role == null)
+				return Unauthorized("Rol no válido");
+
+			// Generar el token
+			var token = _tokenService.GenerateToken(user, role);
+			return Ok(token);
 		}
-
 	}
 }

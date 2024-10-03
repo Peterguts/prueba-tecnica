@@ -1,6 +1,7 @@
 ﻿using Api.Data;
 using Api.Dto;
 using Api.Models;
+using Azure.Core;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -22,7 +23,7 @@ namespace Api.Controllers
 		}
 
 		[HttpPost("registrar")]
-		[Authorize(Roles = "Administrador")]
+		//[Authorize(Roles = "Administrador")]
 		public async Task<ActionResult> Registrar(RegistrarDto registroDto)
 		{
 			// Verifica si el modelo es válido
@@ -46,11 +47,14 @@ namespace Api.Controllers
 				return BadRequest(new { mensaje = "El nombre de usuario ya está en uso." });
 			}
 
+			string passwordHash
+				= BCrypt.Net.BCrypt.HashPassword(registroDto.Password);
+
 			// Crea un nuevo usuario
 			Usuario usuario = new Usuario
 			{
 				NombreUsuario = registroDto.NombreUsuario,
-				Password = registroDto.Password,
+				Password = passwordHash,
 				RolID = registroDto.RolID
 			};
 
