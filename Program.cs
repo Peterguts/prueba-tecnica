@@ -15,6 +15,18 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<AppDBContext>(options =>
 	options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Configuración de CORS
+builder.Services.AddCors(options =>
+{
+	options.AddPolicy("AllowReactApp",
+		policy =>
+		{
+			policy.WithOrigins("http://localhost:3000")
+				  .AllowAnyHeader()
+				  .AllowAnyMethod();
+		});
+});
+
 builder.Services.AddScoped<IRolService, RolService>();
 builder.Services.AddScoped<JwtService>();
 builder.Services.AddSwaggerGen(options =>
@@ -54,6 +66,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowReactApp");
 
 // Middleware de autenticación y autorización
 app.UseAuthentication();

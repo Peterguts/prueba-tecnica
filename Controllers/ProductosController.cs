@@ -19,7 +19,7 @@ namespace Api.Controllers
 		}
 
 		// GET: api/productos
-		[HttpGet]
+		[HttpGet("disponibles")]
 		public async Task<ActionResult<IEnumerable<Producto>>> GetProductos()
 		{
 			List<ProductoDto> productos = await _context.Productos
@@ -35,6 +35,26 @@ namespace Api.Controllers
 				ImagenURL = p.ImagenURL
 			})
 			.ToListAsync();
+
+			return Ok(productos);
+		}
+
+		// GET: api/productos
+		[HttpGet("todos"), Authorize(Roles = "Administrador, Colaborador")]
+		public async Task<ActionResult<IEnumerable<Producto>>> GetProductosAll()
+		{
+			List<ProductoDto> productos = await _context.Productos
+				.Select(p => new ProductoDto
+				{
+					ProductoID = p.ProductoID,
+					Nombre = p.Nombre,
+					Descripcion = p.Descripcion,
+					Precio = p.Precio,
+					SKU = p.SKU,
+					Inventario = p.Inventario,
+					ImagenURL = p.ImagenURL
+				})
+				.ToListAsync();
 
 			return Ok(productos);
 		}
@@ -65,7 +85,7 @@ namespace Api.Controllers
 		}
 
 		// POST: api/productos
-		[HttpPost, Authorize(Roles = "Administrador")]
+		[HttpPost, Authorize(Roles = "Administrador, Colaborador")]
 		public async Task<ActionResult<Producto>> PostProducto(Producto producto)
 		{
 			if (!ModelState.IsValid)
